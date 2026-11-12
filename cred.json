@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Dev",
+    "email": "236301078@gkv.ac.in",
+    "password": "Dev@123",
+    "role": "VENDOR"
+  }
+]
+
+{ 
+  {    
+    "name": "Demo",
+    "email": "devb4111@gmail.com",
+    "password": "demo",
+    "role": "TRADER"
+  }
+}
