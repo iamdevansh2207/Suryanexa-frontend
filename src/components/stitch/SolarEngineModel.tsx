@@ -227,12 +227,12 @@ export default function SolarEngineModel() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="relative rounded-2xl overflow-hidden p-1.5 bg-[#05221d] border border-emerald-500/40 shadow-[0_0_40px_rgba(16,185,129,0.35)]"
+          className="relative rounded-2xl overflow-hidden p-2 flex items-center justify-center shadow-[0_0_50px_rgba(16,185,129,0.35)]"
         >
           <img
-            src="/solar-logo-card.png"
+            src="/suryanexa-logo.png"
             alt="SuryaNexa Engine Emblem"
-            className="w-24 h-24 sm:w-28 sm:h-28 object-contain rounded-xl"
+            className="w-24 h-24 sm:w-28 sm:h-28 object-contain drop-shadow-xl"
           />
         </motion.div>
 

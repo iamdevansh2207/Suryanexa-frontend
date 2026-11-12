@@ -28,11 +28,11 @@ export default function StitchFooter() {
           <div className="lg:col-span-4 space-y-6">
             {/* Logo and Brand Title */}
             <div className="flex items-center gap-3.5">
-              <div className="relative w-12 h-12 rounded-xl bg-zinc-950 p-2 flex items-center justify-center shadow-md border border-zinc-800 shrink-0">
+              <div className="relative w-12 h-12 flex items-center justify-center shrink-0 transition-transform duration-200 hover:scale-105">
                 <img
-                  src="/solar-logo-card.png"
+                  src="/suryanexa-logo.png"
                   alt="SuryaNexa Logo"
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain drop-shadow-md"
                 />
               </div>
               <div className="flex flex-col">

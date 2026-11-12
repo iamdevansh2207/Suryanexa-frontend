@@ -62,9 +62,9 @@ export default function DynamicIslandNavbar() {
         <div className="pointer-events-auto flex items-center gap-3">
           <Link href="#top" className="flex items-center gap-2.5 group">
             <img
-              src="/nexa-logo.png"
+              src="/suryanexa-logo.png"
               alt="SuryaNexa Logo"
-              className="w-10 h-10 object-contain rounded-xl shadow-sm transition-transform duration-300 group-hover:scale-105"
+              className="w-10 h-10 object-contain drop-shadow-sm transition-transform duration-300 group-hover:scale-105"
             />
             <div className="flex flex-col">
               <span className="text-xl font-extrabold font-display tracking-tight text-zinc-950 leading-none">

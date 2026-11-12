@@ -64,8 +64,8 @@ export default function PhoneMockDashboard() {
             {/* APP HEADER BAR */}
             <div className="flex items-center justify-between pt-2 pb-2.5">
               <div className="flex items-center gap-2">
-                <div className="w-7 h-7 rounded-lg bg-zinc-950 p-1 flex items-center justify-center shadow-xs">
-                  <img src="/solar-logo-card.png" alt="Logo" className="w-full h-full object-contain" />
+                <div className="w-7 h-7 flex items-center justify-center shrink-0">
+                  <img src="/suryanexa-logo.png" alt="SuryaNexa Logo" className="w-full h-full object-contain drop-shadow-xs" />
                 </div>
                 <div>
                   <h4 className="text-xs font-extrabold font-display text-slate-900 tracking-tight flex items-center gap-1 leading-none">

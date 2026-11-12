@@ -33,14 +33,17 @@ export default function Home() {
 
     const onClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement | null;
-      const anchor = target?.closest('a[href^="#"]');
+      const anchor = target?.closest('a[href^="#"], a[href^="/#"]');
       if (!anchor) return;
       const href = anchor.getAttribute("href");
       if (!href) return;
-      const targetEl = document.querySelector(href);
-      if (targetEl) {
-        e.preventDefault();
-        lenis.scrollTo(targetEl as HTMLElement, { offset: -84, duration: 1.4 });
+      const hash = href.startsWith("/#") ? href.slice(1) : href;
+      if (hash.startsWith("#")) {
+        const targetEl = document.querySelector(hash);
+        if (targetEl) {
+          e.preventDefault();
+          lenis.scrollTo(targetEl as HTMLElement, { offset: -84, duration: 1.4 });
+        }
       }
     };
     document.addEventListener("click", onClick);

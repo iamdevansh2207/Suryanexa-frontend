@@ -29,9 +29,9 @@ export default function StitchTopBar() {
         {/* Brand Logo with actual SuryaNexa image */}
         <a href="#top" className="flex items-center space-x-3 group">
           <img
-            src="/nexa-logo.png"
+            src="/suryanexa-logo.png"
             alt="SuryaNexa Logo"
-            className="w-10 h-10 object-contain rounded-xl shadow-sm transition-transform duration-300 group-hover:scale-105"
+            className="w-10 h-10 object-contain drop-shadow-sm transition-transform duration-300 group-hover:scale-105"
           />
           <div className="flex flex-col">
             <span className="text-xl font-bold font-display tracking-tight text-zinc-950 leading-tight">
